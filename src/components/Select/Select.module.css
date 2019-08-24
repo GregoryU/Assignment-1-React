@@ -1,4 +1,4 @@
-.input {
+.select {
     background-color: #cecece;
     color: #505050;
     border-radius: 5px;
@@ -6,10 +6,10 @@
     padding: 7px;
 }
 
-.inputcount {
+.selectmessage {
     color: #ffffff;
 }
 
-.inputwrapper {
+.selectwrapper {
     margin-bottom: 29px;
 }

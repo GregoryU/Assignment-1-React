@@ -6,18 +6,16 @@ const Input = (props) => {
     const { children } = props;
     const [ inputMessage, setInputMessage ] = useState('');
     return (
-        <div className="inputwrapper">
-            <div className="inputcount">
-                <input
-                    className={styles.card} 
-                    type="text"
-                    name="inputMessage"
-                    value={inputMessage}
-                    onChange={(event) => setInputMessage(event.target.value)}
-                />
-                <div>
-                    Your message character count is: {inputMessage.length}
-                </div>
+        <div className={styles.inputwrapper}>
+            <input
+                className={styles.input} 
+                type="text"
+                name="inputMessage"
+                value={inputMessage}
+                onChange={(event) => setInputMessage(event.target.value)}
+            />
+            <div className={styles.inputcount}>
+                Your message character count is: {inputMessage.length}
             </div>
         </div>
     );
