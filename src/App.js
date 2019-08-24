@@ -14,6 +14,8 @@ const alertMessage = () => {
 function App() {
   return (
     <div className="app">
+
+      <h1>Assignment 1 - React</h1>
       
       <Button color="green" handleClick={alertMessage}>Click here to show a message!</Button>
 
